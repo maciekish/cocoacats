@@ -19,7 +19,7 @@ static NSInteger networkOperationCount;
 
 + (void)finishNetworkActivity {
     networkOperationCount--;
-    [[UIApplication sharedApplication] updateNetworkActivityIndixator];
+    [[UIApplication sharedApplication] updateNetworkActivityIndicator];
 }
 
 - (void)updateNetworkActivityIndixator {
